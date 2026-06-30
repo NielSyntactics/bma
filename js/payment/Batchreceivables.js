@@ -64,7 +64,7 @@
 		var	payCategoryStore = standards.callFunction( '_createLocalStore' ,{
 			data:[
 				'Catering'
-				,'Charity'
+				,'Robotics'
 				,'Skooltech'
 				,'Christmas'
 				,'Family Day'

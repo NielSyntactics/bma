@@ -336,7 +336,7 @@ var Acknowledgement = function () {
 																	standards.callFunction('_createCheckField', {
 																		id: 'charitySelect' + _module,
 																		fieldLabel: '',
-																		boxLabel: 'Charity',
+																		boxLabel: 'Robotics',
 																		hidden: false
 																		,width: '150px'
 																	}),

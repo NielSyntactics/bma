@@ -179,7 +179,7 @@ class Reminders extends CI_Controller {
 			'pictureSelect' => ['Picture', 'pictureTotalReceivable', 'picturePaid'],
 			'gradFeeSelect' => ['Graduation Fee', 'gradFeeTotalReceivable', 'gradFeePaid'],
 			'scoutingCampingSelect' => ['GSP/BSP', 'scoutingTotalReceivable', 'scoutingPaid'],
-			'charitySelect' => ['Charity', 'charityTotalReceivable', 'charityPaid'],
+			'charitySelect' => ['Robotics', 'charityTotalReceivable', 'charityPaid'],
 			'nutritionDaySelect' => ['Nutrition Day', 'nutritionTotalReceivable', 'nutritionPaid'],
 			'recognitionSelect' => ['Moving Up', 'movingUpTotalReceivable', 'movingUpPaid'],
 			'othersSelect' => ['Others', 'othersTotalReceivable', 'othersPaid'],

@@ -680,7 +680,7 @@ var Balancessummary = function(){
 					}
 				}
 				,{
-					header		: 'Charity'
+					header		: 'Robotics'
 					,dataIndex	: 'charity'
 					,width		: 150
 					,align		: 'right'

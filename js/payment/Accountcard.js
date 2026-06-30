@@ -1444,7 +1444,7 @@ var Accountcard = function () {
 					}
 				}
 				, {
-					header: 'Charity'
+					header: 'Robotics'
 					, dataIndex: 'charity'
 					, width: 145
 					, align: 'right'

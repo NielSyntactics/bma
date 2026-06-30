@@ -44,7 +44,7 @@ class Dailycollectionreport extends CI_Controller{
 		$html .= '<th style="font-weight: bold"> Picture </th>';
 		$html .= '<th style="font-weight: bold"> Grad Fee </th>';
 		$html .= '<th style="font-weight: bold"> Scouting/Camping </th>';
-		$html .= '<th style="font-weight: bold"> Charity </th>';
+		$html .= '<th style="font-weight: bold"> Robotics </th>';
 		$html .= '<th style="font-weight: bold"> Nutrition Day </th>';
 		$html .= '<th style="font-weight: bold"> Moving Up/Recognition </th>';
 		$html .= '<th style="font-weight: bold"> Others </th>';
@@ -202,7 +202,7 @@ class Dailycollectionreport extends CI_Controller{
 			'col13' => 'Picture',
 			'col14' => 'Grad Fee',
 			'col15' => 'Scouting/Camping',
-			'col16' => 'Charity',
+			'col16' => 'Robotics',
 			'col17' => 'Nutrition Day',
 			'col18' => 'Moving Up/Recognition',
 			'col19' => 'Others'

@@ -112,7 +112,7 @@ class Batchreceivables extends CI_Controller {
 				)
 				,1 => array(
 					'id' => '2'
-					,'name' => 'Charity'
+					,'name' => 'Robotics'
 				)
 				,2 => array(
 					'id' => '3'
