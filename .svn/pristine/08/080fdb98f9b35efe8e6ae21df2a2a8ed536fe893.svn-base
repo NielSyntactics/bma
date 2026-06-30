@@ -1,0 +1,11 @@
+$panel-base-color: #ecf0f1 !default;
+
+$tab-line-height:12px !default;
+$tab-font-size:11px !default;
+$tab-color-active: #fff !default;
+$tab-color-over: #fff !default;
+$tab-color:#fff !default;
+$tab-background-gradient: color-stops(#1F8DC2, #1F8DC2) !default;
+$tab-background-gradient-over: color-stops(#6bb9f0, #6bb9f0) !default;
+$tab-background-gradient-active: color-stops(#6bb9f0, #6bb9f0) !default;
+$tab-background-gradient-disabled: 'tab-disabled' !default;

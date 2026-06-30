@@ -1,0 +1,7 @@
+RewriteEngine on
+#RewriteCond %{HTTPS} off
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond $1 !^(index\.php|images|css|js|pdf|upload|abs|robots\.txt|test\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+php_value max_execution_time 0

@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p {font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;line-height:20px;}
+a {font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;}
+a { color: inherit; color: #512A03 !important }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+body {background:#ffffff;}
+#wrap{background:#ffffff;}
+#wrapper {}
+	.container{width:1024px;position:relative;}
+	#header {clear:both; height:50px; background:#dff8ff  repeat-x; position: absolute; width: 100%; top: 0px; }
+		img#logo {margin-left:15px;margin-top:5px;height:30px;width:80px;float: left;}
+		.system-name{text-align: left;margin-left:5px;}
+		.system-name h4 {padding-top:8px;font-size:25px;color:#004191;font-family:'MyriadProRegular';}
+		.system-name .system-details{width: 550px;margin: auto 200px auto;height: 15px;align: center;}
+			.details.office{background:url(../images/header/office-icon.png) no-repeat left center;width: 45%;float: left;padding-left: 10px;margin-right:10px;}
+		.system-name .system-details1{width: 470px;margin: 2px 200px 0;height: 15px;}
+			.details.number{background:url(../images/header/phone-icon.png) no-repeat left center;width: 22%;float: left;padding-left: 10px;margin-right: 10px;}
+			.details.email{background:url(../images/header/email-icon.png) no-repeat left center;width: 27%;float: left;padding-left: 13px;}
+		.profile-menu {float:right;margin:0px 20px 0px 0px}
+			
+			/*p.user {color: #535353;font-size: 10px;font-family: 'SEGOEUIL','MyriadProRegular';text-align: center;}*/
+	#menu-main {background:#102183;border-top:2px solid #020e4f;border-bottom:1px solid #020e4f;height:40px;text-align:center; }
+
+		#menu-main ul  {margin-top:9px;}
+		#menu-main li  {padding:10px 30px;position: relative;display: inline;margin:5px auto;}
+		#menu-main li a {color:#ffffff;font-size:15px;font-family:'SEGOEUIL','MyriadProRegular'; text-decoration:none;}
+		#menu-main li.last {padding: 10px 30px;}
+		#menu-main li:hover {background:#1832c7;border-radius:5px; -moz-border-radius:9px; -webkit-border-radius:9px;}
+		#menu-main li.active {background:#1832c7;border-radius:5px; -moz-border-radius:9px; -webkit-border-radius:9px;}
+	#content {height:600px;width:100%;border:1px solid #dcdcdc;margin:20px 0;}
+	/* #footer	{background:#000066;height:75px; } */
+	#footer	{background:#000066;height:50px; }
+		.footer-content{padding: 5px 0 0;}
+		/* .footer-text {float:left;margin-left:15px;margin-top:10px;} */
+		.footer-text {float:left;margin-left:15px;}
+			#footer p{color:#ffffff;font-size:12px;font-family:'SEGOEUIL','MyriadProRegular'; }
+		/* img#footer-logo{float: right;width: 177px;height: 55px;;margin-right: 20px;} */
+		img#footer-logo{float: right;width: 140px;height: 40px;;margin-right: 20px;}
+		
+/*=========================LOGIN=========================*/
+
+div#wrapper-login{ background:#fff url(../images/login_bg_wide2.png) repeat-x; height:640px;}
+
+	.wrapper-login-bg{ background:transparent url(../images/login_bg.png) no-repeat top center; height:640px;}
+
+		.wrapper-login-container{ margin:0 auto; width:1000px; height:640px;}
+
+		.wrapper-login-container .logo{ padding:100px 0 0 0; text-align:center;}
+
+		.wrapper-login-container .login{ width:213px; height:175px; margin:10px auto 0 auto;}
+
+		.wrapper-login-container .login_input { margin-bottom:10px;float:center;}
+
+		/* .wrapper-login-container .login_input input{ background:transparent url(../images/login_input.png) no-repeat top; height:22px; width:193px; padding:5px 10px; border:0; color:#000000; font-weight:bold; font-size:15px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;} */
+
+		.wrapper-login-container .login_input input{outline:none;transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px; border:1px solid rgba(0,0,0, 0.2);height:20px; width:192px;padding:5px 10px; color:#000000; font-weight:bold; font-size:15px; font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;}
+
+		.wrapper-login-container .login_input select{outline:none;transition: all 0.25s ease-in-out;-webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px; border:1px solid rgba(0,0,0, 0.2);height:28px; width:213px;padding:5px 10px; color:#000000; font-weight:bold; font-size:15px; font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;}
+
+		/* .wrapper-login-container .login_input input:focus{ background:transparent url(../images/login_input.png) no-repeat bottom; color:#0165aa;} */
+
+		.wrapper-login-container .login_input input:focus{box-shadow: 0 0 5px rgba(0, 0, 255, 1);-webkit-box-shadow: 0 0 5px rgba(0,120, 255, 0.8);-moz-box-shadow: 0 0 5px rgba(0, 120, 255, 0);border:1px solid rgba(0,120,255, 0.8); height:25px; width:192px;}
+
+		.wrapper-login-container .login_input select:focus{box-shadow: 0 0 5px rgba(0, 0, 255, 1);-webkit-box-shadow: 0 0 5px rgba(0, 120, 255, 0.8);-moz-box-shadow: 0 0 5px rgba(0, 120, 255, 0);border:1px solid rgba(0,120,255, 0.8); height:33px; width:213px;}
+
+		.wrapper-login-container .login_submit input{ margin:20px 0 0 2px; background:transparent url(../images/login_submit.png) no-repeat top; height:36px; width:207px; border:0; cursor:pointer;}
+
+		.wrapper-login-container .login_submit input:hover{ background:transparent url(../images/login_submit.png) no-repeat bottom; height:36px; width:207px; border:0;} 
+		.wrapper-login-container .login_submit button{ margin:20px 0 0 2px; background:transparent url(../images/login_submit.png) no-repeat top; height:36px; width:207px; border:0; cursor:pointer;}
+
+		.wrapper-login-container .login_submit button:hover{ background:transparent url(../images/login_submit.png) no-repeat bottom; height:36px; width:207px; border:0;}
+
+		.wrapper-login-container .login_forgetpassword{ color:#000000; font-weight:bold; font-size:14px; font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif !important; margin:5px 0 0 3px; letter-spacing:-0.3px;}
+
+		.wrapper-login-container .login_forgetpassword a{ color:#ffffff; text-transform:uppercase; font-weight:normal;}
+
+		
+	
+/*=========================MAIN===========================*/
+
+div#wrapper{ background:none transparent; margin:0; padding:0;}
+.x-tree-icon { display: none !important; }
+
+ .x-grid-row-selected.insufficient .x-grid-td, .x-grid-row-selected.expired_item .x-grid-td{
+	background-color:#F88379  !important;
+}
+.insufficient td,.expired_item td{
+	background-color:#F88379  !important;
+}
+
+
+.clsboundlist .x-tbar-page-next{
+	background-image:none !important;
+}
+.clsboundlist .x-tbar-page-prev {
+	background-image:none !important;
+}
+.msgBarcode{
+	color:red;
+	font-size: 13px;
+    margin-left: 5px;
+    font-style: italic;
+}
+#btnPieHELP_dashboard{
+	left: 482px  !important;
+}
+#printdashpie_dashboard{
+	left: 454px !important;
+}
+#printdashgrid_dashboard{
+	left: 1208px !important;
+}
+ 
+ 
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #512A03;
+	border-top: 5px solid #E44860;
+}
+
+#mainMenuBtn_mainView-body {
+	border-top: 5px solid #512A03;
+	background: #dff8ff !important;
+}
+
+#mainMenuBtn_mainView-innerCt{
+	margin: auto;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	background: #512A03 !important;
+	border-top: 5px solid #E44860;
+}
+
+.btn-mainMenu .x-btn-inner,.btn-form-mainMenu .x-btn-inner{
+	color:#C9997E !important;
+	padding-left: 0px !important;
+	font-size: 20px !important;
+	background-image: none !important;
+}
+
+.btn-mainMenu-Active .x-btn-inner,.btn-form-mainMenu-Active .x-btn-inner{
+	color: #E44860 !important;
+	padding-left: 0px !important;
+	font-size: 20px !important;
+	background-image: none !important;
+}
+
+.btn-form-mainMenu.x-btn-wrap, .btn-form-mainMenu .x-btn-button, .btn-form-mainMenu .x-btn-inner{
+	padding:0 10px;
+	font-size:20px;
+	line-height: 40px;
+}
+
+.btn-mainMenu{
+	background:#512A03 !important;
+	border-color:#512A03 !important;
+	margin: 5px 5px;
+	background-image: none !important;
+}
+
+.btn-mainMenu-Active {
+	border-color:#512A03 !important;
+	margin: 5px 5px;
+	background-image: none !important;
+}
+.x-border-layout-ct {
+	background: transparent !important;
+}
+
+.kv-file-remove {
+	border: 0px none !important;
+	background: transparent !important;
+	color: #fff !important;
+}
+
+.kv-file-upload {
+	border: 0px none !important;
+	background: transparent !important;
+	color: #fff !important;
+}
+
+.input-group-btn {
+	color: #155a95 !important;
+}
+
+.x-tab-default {
+	height: 30px !important;
+}
+
+.x-tab-default .x-tab-inner{
+	font-size: 13px !important;
+}
+
+.x-tab-bar-default-horizontal{
+	height: 32px !important;
+}
+
+.x-tab-inner {
+	overflow: visible !important;
+}
+
+.x-fieldset-header-text {
+	font: 13px/17px Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;
+}
+
+.menuContainer > div > div > img {
+    height: 134px;
+    width: 134px;
+	border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px;
+}
+
+.menuContainer > div > div > p {
+    margin-top: -25px !important;
+	color: #C9997E;
+}
+
+.x-fieldset-body, .x-fieldset-default {
+	width: 99%;
+	position: relative;
+}
+
+.x-toolbar .x-panel-default,
+.x-toolbar .x-panel-body-default {
+	background: #fde6ce !important;
+}
+
+body.chrome .x-grid-table td .x-grid-cell-inner {
+	overflow: visible !important;
+}
+
+#enrolledGridHistory_accountcard-body > div,
+#dropOutGridHistory-body > div,
+#notEnrolledGridHistory_accountcard-body > div {
+	direction: rtl;
+}
+
+#enrolledGridHistory_accountcard-body > div table ,
+#dropOutGridHistory-body > div table ,
+#notEnrolledGridHistory_accountcard-body > div table 
+{
+	direction: ltr;
+}
+
+/* div#notEnrolledGridHistory_accountcard-body,
+div#gridHistory_accountcard-body,
+div#dropOutGridHistory_accountcard-body {
+	height:300px;
+	width:200px;
+	overflow:auto;
+	direction:rtl;
+} */
+
+/* 
+div.x-container > div#notEnrolledGridHistory_accountcard.x-panel:not(.x-layout-fit) #notEnrolledGridHistory_accountcard-body {
+
+    overflow-y: auto;
+
+}
+
+div.x-container > div#notEnrolledGridHistory_accountcard.x-panel:not(.x-layout-fit) #notEnrolledGridHistory_accountcard-body > * {
+
+    direction: ltr !important;
+    height: auto !important;
+
+} */

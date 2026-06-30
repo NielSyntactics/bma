@@ -1,0 +1,38 @@
+$base-color:#512A03 !default;
+$font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !default;
+$font-size: 13px;
+
+$panel-header-color: #C9997E !default;
+$panel-header-background-color: #512A03 !default;
+$panel-border-color : #FDE6CE !default;
+
+$tab-background-gradient: color-stops(#c9997e, #c9997e) !default;
+$tab-background-gradient-active:  color-stops(#512A03, #512A03) !default;
+$tab-background-gradient-over:  color-stops(#512A03, #512A03) !default;
+$tab-background-gradient-disabled: color-stops(#ecf0f1, #ecf0f1) !default;
+
+$tab-color : #C9997E !default;
+$tab-base-color : #8c5f3b !default;
+$tab-base-color-active : #c08961 !default;
+$tab-base-color-over : #8c5f3b !default;
+
+$toolbar-background-color: #fde6ce !default;
+
+$tabbar-base-color: #fde6ce !default;
+$tabbar-border-color: #512A03 !default;
+
+$button-toolbar-background-color : #512A03 !default;
+$button-toolbar-color: #C9997E !default;
+$button-toolbar-border-color: #512A03 !default;
+
+$toolbar-background-color : #512A03 !default;
+$toolbar-border-color: #512A03 !default;
+$toolbar-text-color: mix(desaturate(lighten(#000, 37), 5), #000, 30) !default;
+
+$button-default-background-color: #512A03 !default;
+
+$button-default-base-color-pressed: #512A03 !default;
+
+$window-header-font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif !default;
+
+$toolbar-separator-color: #512A03 !default;
