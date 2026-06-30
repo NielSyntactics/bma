@@ -1198,7 +1198,7 @@ class Accountcard extends CI_Controller {
 			$html .= 	'<th> Picture </th>';
 			$html .= 	'<th> Grad Fee </th>';
 			$html .= 	'<th> Scouting/ Camping </th>';
-			$html .= 	'<th> Charity </th>';
+			$html .= 	'<th> Robotics </th>';
 			$html .= 	'<th> Nutrition Day </th>';
 			$html .= 	'<th> Moving Up/Recognition </th>';
 			$html .= 	'<th> Others </th>';
@@ -1403,7 +1403,7 @@ class Accountcard extends CI_Controller {
 			'pictureTotalReceivable' => ['Picture', 'picturePaid'],
 			'gradFeeTotalReceivable' => ['Graduation Fee', 'gradFeePaid'],
 			'scoutingTotalReceivable' => ['GSP/BSP', 'scoutingPaid'],
-			'charityTotalReceivable' => ['Charity', 'charityPaid'],
+			'charityTotalReceivable' => ['Robotics', 'charityPaid'],
 			'nutritionTotalReceivable' => ['Nutrition Day', 'nutritionPaid'],
 			'movingUpTotalReceivable' => ['Moving Up', 'movingUpPaid'],
 			'othersTotalReceivable' => ['Others', 'othersPaid'],
@@ -1423,7 +1423,7 @@ class Accountcard extends CI_Controller {
             'picture' => ['Picture'],
             'gradFee' => ['Graduation Fee'],
             'scouting' => ['GSP/BSP'],
-            'charity' => ['Charity'],
+            'charity' => ['Robotics'],
             'nutrition' => ['Nutrition Day'],
             'movingUp' => ['Moving Up'],
             'others' => ['Others'],
@@ -1645,7 +1645,7 @@ class Accountcard extends CI_Controller {
             'pictureSelect' => ['Picture', 'pictureTotalReceivable', 'picturePaid'],
             'gradFeeSelect' => ['Graduation Fee', 'gradFeeTotalReceivable', 'gradFeePaid'],
             'scoutingCampingSelect' => ['GSP/BSP', 'scoutingTotalReceivable', 'scoutingPaid'],
-            'charitySelect' => ['Charity', 'charityTotalReceivable', 'charityPaid'],
+            'charitySelect' => ['Robotics', 'charityTotalReceivable', 'charityPaid'],
             'nutritionDaySelect' => ['Nutrition Day', 'nutritionTotalReceivable', 'nutritionPaid'],
             'recognitionSelect' => ['Moving Up', 'movingUpTotalReceivable', 'movingUpPaid'],
             'othersSelect' => ['Others', 'othersTotalReceivable', 'othersPaid'],
@@ -1663,7 +1663,7 @@ class Accountcard extends CI_Controller {
             'picture' => ['Picture'],
             'gradFee' => ['Graduation Fee'],
             'scouting' => ['GSP/BSP'],
-            'charity' => ['Charity'],
+            'charity' => ['Robotics'],
             'nutrition' => ['Nutrition Day'],
             'movingUp' => ['Moving Up'],
             'others' => ['Others'],

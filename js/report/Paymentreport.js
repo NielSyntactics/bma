@@ -48,7 +48,7 @@
 		var	categoryStore = standards.callFunction( '_createLocalStore' ,{
 			data:[
 				'Catering'  //1
-				,'Charity'  //2
+				,'Robotics'  //2
 				,'Extra-Curricular'  //3
 				,'Christmas'  //4
 				,'Family Day'  //5

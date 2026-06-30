@@ -1153,7 +1153,7 @@ class Accountcard extends CI_Controller {
 			$html .= 	'<th> Picture </th>';
 			$html .= 	'<th> Grad Fee </th>';
 			$html .= 	'<th> Scouting/ Camping </th>';
-			$html .= 	'<th> Charity </th>';
+			$html .= 	'<th> Robotics </th>';
 			$html .= 	'<th> Nutrition Day </th>';
 			$html .= 	'<th> Moving Up/Recognition </th>';
 			$html .= 	'<th> Others </th>';

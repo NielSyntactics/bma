@@ -88,7 +88,7 @@ class Collectionreport extends CI_Controller {
 				),
 				array(
 					'id' => 'charity'
-					,'name' => 'Charity'
+					,'name' => 'Robotics'
 				),
 				array(
 					'id' => 'others'

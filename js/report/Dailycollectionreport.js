@@ -541,7 +541,7 @@
 					}
 				}
 				,{
-					header		: 'Charity'
+					header		: 'Robotics'
 					,dataIndex	: 'charity'
 					,sortable: false
 					,draggable: false

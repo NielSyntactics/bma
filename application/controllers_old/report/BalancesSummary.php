@@ -109,7 +109,7 @@ class Balancessummary extends CI_Controller {
 			'col11' => 'Picture',
 			'col12' => 'Grad Fee',
 			'col13' => 'Scouting/ Camping',
-			'col14' => 'Charity',
+			'col14' => 'Robotics',
 			'col15' => 'Nutrition Day',
 			'col16' => 'Moving Up/Recognition',
 			'col17' => 'Others',
@@ -244,7 +244,7 @@ class Balancessummary extends CI_Controller {
 		$html .= '<th style="font-weight: bold"> Picture </th>';
 		$html .= '<th style="font-weight: bold"> Grad Fee </th>';
 		$html .= '<th style="font-weight: bold"> Scouting/ Camping </th>';
-		$html .= '<th style="font-weight: bold"> Charity </th>';
+		$html .= '<th style="font-weight: bold"> Robotics </th>';
 		$html .= '<th style="font-weight: bold"> Nutrition Day </th>';
 		$html .= '<th style="font-weight: bold"> Moving Up/Recognition </th>';
 		$html .= '<th style="font-weight: bold"> Others </th>';
